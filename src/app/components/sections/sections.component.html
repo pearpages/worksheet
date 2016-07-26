@@ -1,3 +1,8 @@
-<p>
-  sections works!
-</p>
+  <h2>Sections</h2>
+  <nav>
+    <ul>
+      <li *ngFor="let s of getLinks()">
+        <a routerLink="/{{s.type}}/{{s.url}}" routerLinkActive="active">{{s.name}}</a>
+      </li>
+    </ul>
+  </nav>
