@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   moduleId: module.id,
@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['description.component.css']
 })
 export class DescriptionComponent implements OnInit {
+
+  @Input() account: any;
 
   constructor() {}
 
