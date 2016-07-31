@@ -9,7 +9,7 @@ import {
 import {Worksheet} from './worksheet';
 
 describe('Worksheet', () => {
-  it('should create an instance', () => {
+  /*it('should create an instance', () => {
     expect(new Worksheet()).toBeTruthy();
-  });
+  });*/
 });
